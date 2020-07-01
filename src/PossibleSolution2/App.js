@@ -111,6 +111,9 @@ class App extends Component {
         this.usersByMovie[movieID] = [profile.userID];
       }
     });
+
+    console.log(this.usersByMovie);
+    
   }
 
   /*
